@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21413732-99A6-41FA-AF4B-1BCCCEE913F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2832C5B0-7027-43F4-B7AB-EA957065490C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Domain", "Booking.Domain\Booking.Domain.csproj", "{4720A6CF-8F97-4E90-8899-6B0C38A65A50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4720A6CF-8F97-4E90-8899-6B0C38A65A50} = {21413732-99A6-41FA-AF4B-1BCCCEE913F5}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4720A6CF-8F97-4E90-8899-6B0C38A65A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4720A6CF-8F97-4E90-8899-6B0C38A65A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4720A6CF-8F97-4E90-8899-6B0C38A65A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4720A6CF-8F97-4E90-8899-6B0C38A65A50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
