@@ -4,11 +4,16 @@ namespace Booking.Domain.Apartments;
 
 public sealed class Apartment : Entity
 {
-    public Apartment(Guid id) : base(id)
+    public Apartment(Guid id, Name name, Description description, Address address, Money price, Money cleaningFee, DateTime? lastBookedOnUtc) : base(id)
     {
-        
+        Name = name;
+        Description = description;
+        Address = address;
+        Price = price;
+        CleaningFee = cleaningFee;
+        LastBookedOnUtc = lastBookedOnUtc;
     }
-    
+
     public Name Name { get; private set; }
 
     public Description Description { get; private set; }
@@ -19,7 +24,7 @@ public sealed class Apartment : Entity
     
     public Money CleaningFee { get; private set; }
 
-    public DateTime? LastBookedOnUtc { get; private set; }
+    public DateTime? LastBookedOnUtc { get; internal set; }
 
     public List<Amenity> Amenities { get; private set; } = new();
 }
